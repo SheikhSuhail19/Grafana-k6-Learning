@@ -1,0 +1,4055 @@
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_reqs",
+        "type": "counter",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_reqs"
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2984155+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_duration",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": [
+            {
+                "name": "http_req_duration{expected_response:true}",
+                "suffix": "expected_response:true",
+                "tags": {
+                    "expected_response": "true"
+                }
+            }
+        ]
+    },
+    "metric": "http_req_duration"
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2984155+05:30",
+        "value": 307.6198,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_blocked",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_blocked"
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2984155+05:30",
+        "value": 251.5774,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_connecting",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_connecting"
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2984155+05:30",
+        "value": 229.8767,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_tls_handshaking",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_tls_handshaking"
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2984155+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_sending",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_sending"
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2984155+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_waiting",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_waiting"
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2984155+05:30",
+        "value": 307.6198,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_receiving",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_receiving"
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2984155+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_failed",
+        "type": "rate",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_failed"
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2984155+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 308.054,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 251.5774,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 229.7591,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0.1176,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 307.6198,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0.3166,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 305.4734,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 254.0404,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 232.3397,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 305.4734,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 305.4734,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 254.0404,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 232.3397,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 305.4734,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2987321+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 301.504,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 258.19,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 236.4893,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 301.3238,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0.1802,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 308.1166,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 251.5774,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 229.8767,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 308.1166,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 300.324,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 259.37,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 237.6693,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 300.324,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 308.1166,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 251.5774,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 229.8767,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 308.1166,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 302.339,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 257.355,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 235.6543,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 302.339,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 308.1166,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 251.5774,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 229.8767,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 308.1166,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.2989123+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://test.k6.io",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "308",
+            "url": "http://test.k6.io"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "vus",
+        "type": "gauge",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "vus"
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.7474465+05:30",
+        "value": 10,
+        "tags": {}
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "vus_max",
+        "type": "gauge",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "vus_max"
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:08.7474465+05:30",
+        "value": 10,
+        "tags": {}
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 327.5903,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 594.1582,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 299.5329,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 294.3087,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 327.5903,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 327.5903,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 593.6614,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 299.3527,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 294.3087,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 321.4129,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 6.1774,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220164+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220677+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220677+05:30",
+        "value": 325.8083,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220677+05:30",
+        "value": 595.9564,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220677+05:30",
+        "value": 299.3527,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220677+05:30",
+        "value": 296.6037,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220677+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220677+05:30",
+        "value": 325.8083,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220677+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.220677+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2209273+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2209273+05:30",
+        "value": 325.8685,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2209273+05:30",
+        "value": 596.3267,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2209273+05:30",
+        "value": 299.5329,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2209273+05:30",
+        "value": 296.7938,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2209273+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2209273+05:30",
+        "value": 325.8685,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2209273+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2209273+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2212025+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2212025+05:30",
+        "value": 326.3851,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2212025+05:30",
+        "value": 595.9051,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2212025+05:30",
+        "value": 299.3527,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2212025+05:30",
+        "value": 296.5524,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2212025+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2212025+05:30",
+        "value": 326.3547,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2212025+05:30",
+        "value": 0.0304,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.2212025+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.7373144+05:30",
+        "value": 10,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:09.7373144+05:30",
+        "value": 10,
+        "tags": {}
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "data_sent",
+        "type": "counter",
+        "contains": "data",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "data_sent"
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "data_received",
+        "type": "counter",
+        "contains": "data",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "data_received"
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 17310,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "iteration_duration",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "iteration_duration"
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 2489.4197,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "iterations",
+        "type": "counter",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "iterations"
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 17310,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 2489.6307,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 17316,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 2489.6307,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 17310,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 2489.6307,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 17310,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 2489.4197,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.228638+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.3749369+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.3749369+05:30",
+        "value": 1482.3632,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.3749369+05:30",
+        "value": 593.6614,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.3749369+05:30",
+        "value": 306.6322,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.3749369+05:30",
+        "value": 287.0292,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.3749369+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.3749369+05:30",
+        "value": 1482.3632,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.3749369+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.3749369+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.7480753+05:30",
+        "value": 5,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:10.7480753+05:30",
+        "value": 10,
+        "tags": {}
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3293055+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3293055+05:30",
+        "value": 2436.7318,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3293055+05:30",
+        "value": 593.6614,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3293055+05:30",
+        "value": 306.6322,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3293055+05:30",
+        "value": 287.0292,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3293055+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3293055+05:30",
+        "value": 2436.7318,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3293055+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3293055+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3636364+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3636364+05:30",
+        "value": 2470.7012,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3636364+05:30",
+        "value": 594.0229,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3636364+05:30",
+        "value": 306.6322,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3636364+05:30",
+        "value": 287.3907,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3636364+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3636364+05:30",
+        "value": 2009.8358,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3636364+05:30",
+        "value": 460.8654,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3636364+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3711342+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3711342+05:30",
+        "value": 2478.199,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3711342+05:30",
+        "value": 594.2031,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3711342+05:30",
+        "value": 306.6908,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3711342+05:30",
+        "value": 287.3907,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3711342+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3711342+05:30",
+        "value": 2478.199,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3711342+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3711342+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3751993+05:30",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3751993+05:30",
+        "value": 2480.887,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3751993+05:30",
+        "value": 595.5802,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3751993+05:30",
+        "value": 306.8124,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3751993+05:30",
+        "value": 288.7678,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3751993+05:30",
+        "value": 0.5051,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3751993+05:30",
+        "value": 2480.2423,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3751993+05:30",
+        "value": 0.1396,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3751993+05:30",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "https://test.k6.io/",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "tls_version": "tls1.3",
+            "url": "https://test.k6.io/"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3765928+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3765928+05:30",
+        "value": 17316,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3765928+05:30",
+        "value": 3637.3745,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.3765928+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.7445227+05:30",
+        "value": 4,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:11.7445227+05:30",
+        "value": 10,
+        "tags": {}
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3445379+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3445379+05:30",
+        "value": 17310,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3445379+05:30",
+        "value": 4605.3196,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3445379+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3693115+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3693115+05:30",
+        "value": 17332,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3693115+05:30",
+        "value": 4630.3042,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3693115+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3779242+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3779242+05:30",
+        "value": 17310,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3779242+05:30",
+        "value": 4638.9169,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3779242+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3781303+05:30",
+        "value": 546,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3781303+05:30",
+        "value": 17310,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3781303+05:30",
+        "value": 4638.912,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-10-26T23:01:12.3781303+05:30",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
